@@ -26,7 +26,9 @@ performance:
   SpreadOperator:
     active: false
 style:
-  MagicNumber:
-    ignoreNumbers: ['-2', '-1', '0', '0.5', '1', '2', '3', '4', '10', '100', '360.0']
   ForbiddenComment:
     allowedPatterns: 'TODO:'
+  MagicNumber:
+    ignoreNumbers: ['-2', '-1', '0', '0.5', '1', '2', '3', '4', '10', '100', '360.0']
+  ThrowsCount:
+    max: 10
