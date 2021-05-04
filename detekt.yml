@@ -19,6 +19,7 @@ complexity:
     ignorePrivate: true
     ignoreOverridden: true
     thresholdInInterfaces: 20
+    thresholdInObjects: 20
 naming:
   MemberNameEqualsClassName:
     active: false
